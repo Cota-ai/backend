@@ -4,7 +4,8 @@ FROM php:${VERSION_TAG} AS build
 RUN apk update && apk add --no-cache curl \
     wget \
     postgresql-dev \
-    git
+    git \
+    openssh
 
 RUN docker-php-ext-configure intl && docker-php-ext-install pdo pdo_pgsql intl
 
