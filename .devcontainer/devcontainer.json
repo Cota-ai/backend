@@ -1,0 +1,26 @@
+{
+    "name": "Dev container Cota ai",
+    "dockerComposeFile": [
+        "../compose.yml"
+    ],
+    "service": "app",
+    "workspaceFolder": "/app",
+    "remoteUser": "local",
+    "shutdownAction": "stopCompose",
+    "runServices": [
+        "db"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "DEVSENSE.phptools-vscode",
+                "xdebug.php-debug",
+                "bmewburn.vscode-intelephense-client",
+                "xdebug.php-pack",
+                "zobo.php-intellisense",
+                "redhat.vscode-yaml",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "root/src",
+    "description": "Projeto de cotas",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CotaAi\\": "./"
+        }
+    },
+    "require-dev": {
+        "robmorgan/phinx": "^0.16.4"
+    }
+}
