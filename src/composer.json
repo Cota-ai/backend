@@ -10,5 +10,8 @@
     },
     "require-dev": {
         "robmorgan/phinx": "^0.16.4"
+    },
+    "require": {
+        "ramsey/uuid": "^4.7"
     }
 }
