@@ -5,7 +5,8 @@ RUN apk update && apk add --no-cache curl \
     wget \
     postgresql-dev \
     git \
-    openssh
+    openssh \
+    make
 
 RUN docker-php-ext-configure intl && docker-php-ext-install pdo pdo_pgsql intl
 
